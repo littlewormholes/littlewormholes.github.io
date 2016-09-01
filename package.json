@@ -1,0 +1,23 @@
+{
+  "name": "littlewormholes",
+  "version": "1.0.0",
+  "description": "personal research / learning repository",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlewormholes/littlewormholes.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlewormholes/littlewormholes.github.io/issues"
+  },
+  "homepage": "https://github.com/littlewormholes/littlewormholes.github.io#readme"
+}

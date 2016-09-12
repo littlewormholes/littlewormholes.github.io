@@ -1,0 +1,30 @@
+.button{
+    @include transition;
+    @include set-font(14px, 500, $color-primary);
+    @extend %font-family;
+    
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 15px;
+    background-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+    &:focus{
+        outline: 0;
+    }
+}
+
+.button-primary{
+    border-color: $color-primary;
+    
+    &:hover{
+        background-color: $color-primary;
+        color: #fff;
+    }
+}
+
+.button-secondary{
+    
+}
